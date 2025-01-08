@@ -1,0 +1,3 @@
+This repository demonstrates a common error in R programming related to file I/O: silent failure when reading CSV files.  The `bug.R` file shows an example of code that fails silently if the specified CSV file is not found or has issues. The `bugSolution.R` provides a solution demonstrating improved error handling and more robust file processing.
+
+This is a common issue, as R's default behavior in such cases is not always obvious.  The example illustrates how to implement better error handling using `tryCatch` and providing informative error messages, to improve the robustness and maintainability of the code.
